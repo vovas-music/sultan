@@ -13,7 +13,9 @@ seeking on an iPhone
 On iPhone Safari (iOS 18.7, Safari 26.6.1) the MP4 landed exactly where the
 MP3 did. The FLAC, even with a one-second SEEKTABLE, landed nowhere near the
 target from a cold load. AVFoundation seeks a bare FLAC by estimate, and it
-seeks MP4's sample index exactly.
+seeks MP4's sample index exactly. The MP4 from raw.githubusercontent.com,
+despite its `application/octet-stream`, played and seeked as the Pages copy
+did.
 
 To run it again: Settings → Pages → Deploy from a branch → `main`, `/ (root)`,
 then open `https://vovas-music.github.io/sultan/seek-test/`. Switch Pages off
